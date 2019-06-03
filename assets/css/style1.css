@@ -168,3 +168,26 @@ input[type=submit] {
     position: absolute;
     top: 75%;
 }
+
+@media screen and (max-width:980px) {
+    #main-container {
+        background: red;
+        
+        
+    }
+}
+@media screen and (max-width:768px) {
+    #main-container {
+        background: green
+            
+    }
+    
+}
+@media screen and (max-width:640px) {
+    #main-container {
+        background: purple;
+    }
+    #mainheader {
+        position: static;
+    }
+}
