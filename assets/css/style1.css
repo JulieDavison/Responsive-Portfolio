@@ -190,4 +190,9 @@ input[type=submit] {
     #mainheader {
         position: static;
     }
+    #me {
+        text-align: center;
+        width: 640px;
+    }
+    
 }
